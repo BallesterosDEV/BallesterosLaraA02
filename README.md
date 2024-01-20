@@ -9,13 +9,13 @@
     1. Descargar la fuente (hay muchas páginas que permiten descargar cientos de tipos de fuentes).
     2. Crear en la raíz principal del proyecto una carpeta (en mi caso "fonts") donde incluyas el archivo descargado con la fuente deseada.
     3. Incluir en el archivo `pubspec.yaml` la fuente, en mi caso el código quedaría así:
-       ```
+       
          fonts:
     - family: Poppins
       fonts:
         - asset: fonts/Poppins-Bold.ttf
         - asset: fonts/Poppins-Regular.ttf
-        - asset: fonts/Poppins-Thin.ttf```
+        - asset: fonts/Poppins-Thin.ttf
     4. Ejecutar en la terminal del proyecto el comando `flutter pub get` para que el proyecto descargue la fuente.
     5. Incluir la fuente en tus textos, en mi caso: `fontFamily: "Poppins" | fontWeight: "Bold"`
 
