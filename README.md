@@ -30,3 +30,36 @@
 
   # Ejercicio 2: Lógica del contador
 
+  > Contexto: Esta es una aplicación Flutter simple que muestra un contador en pantalla y proporciona botones "+" "RESET" y "-" para incrementar, resetear y decrementar el contador respectivamente. La implementación utiliza un widget personalizado (BotonContador) para representar los botones y sigue las mejores prácticas de Flutter para mejorar la modularidad y el mantenimiento del código.
+
+### Estructura del Proyecto:
+El proyecto está organizado en dos archivos principales:
+
+- `main.dart`: Contiene la clase principal MyApp que define la estructura general de la aplicación y utiliza el widget ContadorApp como la página principal.
+
+- `btn_contador.dart`: Contiene la definición del widget BotonContador, que es una plantilla para los botones utilizados en la aplicación.
+
+### Uso del Widget `BotonContador`:
+El widget `BotonContador` se utiliza para representar los botones "+" "RESET" y "-" en la aplicación. Este widget toma dos parámetros obligatorios:
+
+- `label`: Un String que representa el texto en el botón.
+- `onPressed`: Un callback VoidCallback que se ejecuta cuando se presiona el botón.
+- 
+### Implementación del Contador
+La clase `_ContadorAppState` es un `StatefulWidget` que mantiene el estado del contador. La interfaz de usuario se actualiza mediante el método `setState` cada vez que se realiza una operación sobre el contador.
+
+Los métodos para gestionar el contador son:
+
+1. `incrementarContador`: Incrementa el valor del contador en 1.
+2. `decrementarContador`: Decrementa el valor del contador en 1, pero solo si el contador es mayor que cero.
+3. `resetearContador`: Restablece el valor del contador a cero.
+   
+### Estructura del Widget `ContadorApp`:
+ContadorApp es un StatefulWidget que utiliza el estado definido en _ContadorAppState. La estructura de la aplicación se compone de contenedores y texto para mostrar el título, el contador y el autor. Además, utiliza el widget BotonContador para crear los botones de acción.
+
+Esta estructura modular facilita la lectura y mantenimiento del código, siguiendo las mejores prácticas de Flutter.
+
+- **__Resultado:__**
+  ![image](https://github.com/BallesterosDEV/BallesterosLaraA02/assets/118269269/f3b1cc5a-8381-41d7-8a4f-78fba0dd0390)
+
+
