@@ -1,4 +1,4 @@
-# By Pablo Ballesteros Lara
+# Ejercicio 1: Diseño del contador
 
 > Contexto: Este proyecto pretende hacer el diseño de la interfaz de un contador, no tiene aún ninguna funcionalidad, solo se ha trabajado en la parte visual, este proyecto se ha creado con flutter, siguiendo los parámetros marcados por figma.
 
@@ -27,4 +27,6 @@
   __`Nota:`__ Al haber trabajado con porcentajes `height: MediaQuery.of(context).size.height * 0.05,` la página es bastante responsive.
   
   ![image](https://github.com/BallesterosDEV/BallesterosLaraA02/assets/118269269/a7e7dbba-b8ec-4995-9054-dd14f222082f)
+
+  # Ejercicio 2: Lógica del contador
 
