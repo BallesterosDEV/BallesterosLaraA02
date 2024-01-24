@@ -60,6 +60,7 @@ ContadorApp es un StatefulWidget que utiliza el estado definido en _ContadorAppS
 Esta estructura modular facilita la lectura y mantenimiento del código, siguiendo las mejores prácticas de Flutter.
 
 - **__Resultado:__**
+  
   ![image](https://github.com/BallesterosDEV/BallesterosLaraA02/assets/118269269/f3b1cc5a-8381-41d7-8a4f-78fba0dd0390)
 
 
